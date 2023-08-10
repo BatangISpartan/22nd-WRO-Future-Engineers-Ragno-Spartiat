@@ -58,12 +58,35 @@ A consistent strategy to negotiate the different colors and positions of the obs
 ### 1.1. 
 #### When would it happen?
 When the robot is in the middle part of the driving lane and the green obstacle is in either X-intersections or far T-intersections of the straightforward sections.
+
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/c5d9ca77-4e87-4525-b708-9c0987da2434" width="420" height="500" />
+
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/1e58960f-f44d-482b-9a60-e0170d0fcf78" width="420" height="500" />
+
+<pre>                     Instance 1                                                Instance 2   </pre>   
+
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/377d03db-60ef-4e24-bf62-2a56e898435e" width="420" height="500" />
+
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/39d6746b-4cb9-431d-9930-9e563d159cd0" width="420" height="500" />
+
+<pre>                     Instance 3                                                Instance 4   </pre>   
+
+
 #### What should it do?
 The robot would drive past the green obstacle by going to the left side of its current straightforward section. 
 When the orange line is detected after the above action was done, do Subprogram 2.1.
 ### 1.2. 
 #### When would it happen?
 When the robot is in the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there are no obstacles in either near T-intersections of the next straightforward section.
+
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/b317faef-fc33-4e1c-be29-fb1c391f7272" width="420" height="500" />
+
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/dca08922-932e-4e24-a584-05bbeabd4464" width="420" height="500" />
+
+<img src="" width="420" height="500" />
+
+<img src="" width="420" height="500" />
+
 #### What should it do?
 The robot would drive past the red obstacle, go to the right side of its current straightforward section, and turn to the middle zone of the next straightforward section. When the orange line is detected after the above action was done, do Subprogram 2.2.
 ### 1.3. 

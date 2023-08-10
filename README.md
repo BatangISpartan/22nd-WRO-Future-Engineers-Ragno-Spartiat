@@ -1,5 +1,7 @@
 22nd WRO Future Engineers 
-* (Ragno Spartiat)
+
+(Ragno Spartiat)
+
 * Engineering materials
 ====
 

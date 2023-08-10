@@ -59,7 +59,10 @@ A consistent strategy to negotiate the different colors and positions of the obs
 
 `Subprogram 2.1.` 
 
-    The robot would go backwards to make it go where the team wants it to go, facing the middle zone of the next straightforward section while also not hitting any possible obstacles placed on either near T-intersections of the said section and having the right distance to make specific actions if there are obstacles placed on the said intersections.
+    The robot would go backwards to make it go where the team wants it to go, facing the middle zone of the next 
+    straightforward section while also not hitting any possible obstacles placed on either near T-intersections 
+    of the said section and having the right distance to make specific actions if there are obstacles placed on 
+    the said intersections.
 
 
 

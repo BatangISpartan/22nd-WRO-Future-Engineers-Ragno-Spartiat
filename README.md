@@ -63,13 +63,13 @@ When the robot is in the middle part of the driving lane and the green obstacle 
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/1e58960f-f44d-482b-9a60-e0170d0fcf78" width="380" height="500" />
 
-<pre>                     Instance 1                                                Instance 2   </pre>   
+<pre>                  Instance 1                                                Instance 2   </pre>   
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/377d03db-60ef-4e24-bf62-2a56e898435e" width="380" height="500" />
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/39d6746b-4cb9-431d-9930-9e563d159cd0" width="380" height="500" />
 
-<pre>                     Instance 3                                                Instance 4   </pre>   
+<pre>                  Instance 3                                                Instance 4   </pre>   
 
 
 #### What should it do?
@@ -89,7 +89,7 @@ When the robot is on the middle part of the driving lane, the red obstacle is in
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/43deba39-d186-4761-8ea4-056de433c982" width="380" height="500" />
 
-<pre>                     Instance 1                                                Instance 2   </pre>   
+<pre>                  Instance 1                                                Instance 2   </pre>   
 
 #### What should it do?
 The robot would drive past the red obstacle, go to the right side of its current straightforward section, then turn to the middle zone of the next straightforward section. When the orange line is detected after the above action was done, do Subprogram 2.2.
@@ -105,13 +105,13 @@ When the robot is on the middle part of the driving lane, the red obstacle is on
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/0f65d0ea-0f23-49bc-b784-a451ebd0eb37" width="380" height="500" />
 
-<pre>                     Instance 1                                                Instance 2   </pre>   
+<pre>                  Instance 1                                                Instance 2   </pre>   
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/58f4c9f1-4043-49a9-82d7-6f3b86527494" width="380" height="500" />
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/7e557758-80b7-426a-8b43-52b516bf50dc" width="380" height="500" />
 
-<pre>                     Instance 3                                                Instance 4   </pre>  
+<pre>                  Instance 3                                                Instance 4   </pre>  
 
 #### What should it do?
 The robot would drive past the red obstacle, go to the right side of its current straightforward section, drive past the green obstacle by turning to the left side of the next straightforward section, then go back to the middle zone of its current straightforward section (next straightforward section).
@@ -127,13 +127,13 @@ When the robot is in the middle part of the driving lane, the red obstacle is in
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/bacb9589-d60d-4265-8520-0ee870cbb082" width="380" height="500" />
 
-<pre>                     Instance 1                                                Instance 2   </pre>   
+<pre>                  Instance 1                                                Instance 2   </pre>   
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/0d61df4f-46ff-47ce-8022-4e6a2056745a" width="380" height="500" />
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/557e5a46-8e3b-4eda-9766-f67ba191d329" width="380" height="500" />
 
-<pre>                     Instance 3                                                Instance 4   </pre>  
+<pre>                  Instance 3                                                Instance 4   </pre>  
 
 #### What should it do?
 The robot would drive past the red obstacle, go to the right side of its current straightforward section, drive past the red obstacle by turning to the right side of the next straightforward section, then go back to the middle zone of its current straightforward section (next straightforward section).
@@ -150,7 +150,7 @@ When the robot is in the middle part of the driving lane and the green obstacle 
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/c008c6fa-c062-4daa-9351-6c70ba15076b" width="380" height="680" />
 
-<pre>                     Instance 1                                                Instance 2   </pre>   
+<pre>                 Instance 1                                                Instance 2   </pre>   
 
 #### What should it do?
 The robot would drive past the green obstacle by going to the left side of its current straightforward section, then go back to the middle zone of its current straightforward section.
@@ -166,7 +166,7 @@ When the robot is on the middle part of the driving lane and the red obstacle is
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/06631e34-8296-433a-8e5f-12a206f3de33" width="380" height="680" />
 
-<pre>                     Instance 1                                                Instance 2   </pre>  
+<pre>                 Instance 1                                                Instance 2   </pre>  
 
 #### What should it do?
 The robot would drive past the red obstacle by going to the right side of its current straightforward section, then go back to the middle zone of its current straightforward section.
@@ -181,7 +181,6 @@ When the robot is on the middle part of the driving lane and there were no obsta
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/1d175e10-30ba-4799-80ac-e83b7aad76b2" width="380" height="680" />
 
-<pre>                     Instance 1                                         </pre>  
 
 #### What should it do?
 The robot would just drive forward.

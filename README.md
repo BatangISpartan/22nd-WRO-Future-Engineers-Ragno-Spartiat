@@ -131,9 +131,9 @@ When the orange line is detected after the above action was done, do Subprogram 
 When the robot is in the middle part of the driving lane and the green obstacle is in either near T-intersections of the straightforward sections.
 
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/badb0271-f94e-49b2-8be1-6fd811e48f2b" width="420" height="500" />
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/badb0271-f94e-49b2-8be1-6fd811e48f2b" width="420" height="650" />
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/c008c6fa-c062-4daa-9351-6c70ba15076b" width="420" height="500" />
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/c008c6fa-c062-4daa-9351-6c70ba15076b" width="420" height="650" />
 
 <pre>                     Instance 1                                                Instance 2   </pre>   
 
@@ -144,9 +144,9 @@ When the orange line is detected after the above action was done, do Subprogram 
 #### When would it happen?
 When the robot is in the middle part of the driving lane and the red obstacle is in either near T-intersections of the straightforward sections.
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/bc903e83-d6fd-4d49-a097-d0721a0ec9e9" width="420" height="500" />
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/bc903e83-d6fd-4d49-a097-d0721a0ec9e9" width="420" height="650" />
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/06631e34-8296-433a-8e5f-12a206f3de33" width="420" height="500" />
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/06631e34-8296-433a-8e5f-12a206f3de33" width="420" height="650" />
 
 <pre>                     Instance 1                                                Instance 2   </pre>  
 

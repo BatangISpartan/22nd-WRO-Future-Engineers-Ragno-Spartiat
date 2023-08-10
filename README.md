@@ -11,27 +11,27 @@ For the mobility of the robot, the team had chosen these following motors:
 
   <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/e5af2386-8623-40b2-bcdc-e92799dce08b" width="230" height="150" />
   
-The `AISTEAM ordinary motor module v1` was used as the driving motor of the robot. It has a working voltage of 7.4 V, rated speed of 200 RPM±10%, reduction ratio of 1:120, and a no-load current of 50 mA. It can provide the highest amount of speed while also having the ability to rotate 360°.
+The `AISTEAM ordinary motor module v1` was used as the driving motor of the robot. It has a working voltage of 7.4 V, with rated speed of 200 RPM±10%, reduction ratio of 1:120, and a no-load current of 50 mA. It can provide the highest speed value while also having the ability to rotate 360°.
 
   <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/bdde8714-614a-473f-ac8e-6f8c9b029b07" width="230" height="150" />
 
-The `AISTEAM simulated steering gear module` was used as a steering motor. It has a working voltage of 5 V, torque of 1.5 kgf·cm, angle range of 0 to 180°, and a speed of 120 ms/60°. It's the only motor that was specifically designed for steering, thus having the ability to create highly precise rotations necessary for a steering motor. 
+Additionally, the `AISTEAM simulated steering gear module` was used as a steering motor. It has a working voltage of 5 V, torque of 1.5 kgf·cm, angle range of 0 to 180°, and a speed of 120 ms/60°. It's the only motor that was specifically designed for steering, thus having the ability to create highly precise rotations necessary for a steering motor. 
 
 
   
-They were the selected motors for the robot since they were one of the few motors that were compatible with the controller used for the robot, which was the AISTEAM controller. It should be taken into account that the team had not considered using the AISTEAM digital steering gear module since it did not came with the AISTEAM kit that the team’s school had ordered. Additionally, both motors selected were compatible with the team’s LEGO-built robot.
+They were the selected motors for the robot since they were some of the few motors that were compatible with the controller used for the robot, the AISTEAM controller. It should be taken into account that the team had not considered using the AISTEAM digital steering gear module since it did not come with the AISTEAM kit that the team’s school had ordered. Furthermore, both motors selected were compatible with the team’s LEGO-built robot.
 
 Power Management
 ===
 
   <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/23320d6a-0b29-4d37-aa43-9baf4e3c1874)" width="420" height="260" />
 
-The power source used by the robot was an `AISTEAM lithium battery module` since the AISTEAM controller was used to process the program of the robot. The AISTEAM lithium battery has an output voltage of 7.4 V, rated capacity of 1100 mAh, maximum discharge rate of 3 C, rated charging voltage of 8.4 V, and a rated charging current of 1 A. The said battery uses a dedicated 8.4 V 1 A charger to charge itself.
+The power source used by the robot was an `AISTEAM lithium battery module` since the AISTEAM controller was used to process the program of the robot. The AISTEAM lithium battery has an output voltage of 7.4 V, with rated capacity of 1100 mAh, maximum discharge rate of 3 C, rated charging voltage of 8.4 V, and a rated charging current of 1 A. The said battery uses a dedicated 8.4 V 1 A charger to charge itself.
 
 Sense Management
 ===
 
-In order to provide the robot the data necessary for doing specific actions, the team utilized these following sensors:
+Furthermore, in order to provide the data for the robot in doing specific actions, the team utilized these following sensors:
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/d9226240-d38d-480c-9e96-ad5f7528378f" width="420" height="180" />
 
@@ -42,10 +42,10 @@ In order to provide the robot the data necessary for doing specific actions, the
 * AISTEAM roof vision module
   
 
-The `AISTEAM integrated grayscale module` was used to determine where and when the robot should turn; if it is positioned near the orange line of the robot field, the robot should turn clockwise, and it should turn counterclockwise when the AISTEAM integrated grayscale module is placed near the blue line of the robot field. The AISTEAM roof vision module was used to detect the color of the obstacles that the robot should avoid.
+The `AISTEAM integrated grayscale module` was used to determine when and where the robot should turn. If it is positioned near the orange line of the robot field, the robot should turn clockwise. Hence, when the module is placed near the blue line of the field it should turn counterclockwise. Additionally, the AISTEAM roof vision module was used to detect the color of the obstacles to be avoided.
 
 
-The team had decided to specifically use these sensors primarily because of the `AISTEAM roof vision module` itself; it was the best equipment that the team had to be able to distinguish the obstacles in a pretty long and wide range, much better compared to the color sensor of the LEGO MINDSTORMS EV3 and LEGO Education SPIKE Prime. Then the AISTEAM integrated grayscale module was selected since the AISTEAM roof vision module can only be utilized when the AISTEAM controller is used, and the AISTEAM integrated grayscale module was the only sensor besides the AISTEAM vision module that could differentiate between different colors through its ability to detect reflected light values. Similar to the motors selected, both sensors used were compatible with the team’s LEGO-built robot. Throughout the time, the AISTEAM expansion screen module was also used for easier debugging of the program. 
+The team had decided to specifically use these sensors primarily because of the `AISTEAM roof vision module` itself. It was the best equipment that the team had in order to distinguish the obstacles in a pretty long and wide range, which was deemed much better compared to the color sensor of the LEGO MINDSTORMS EV3 and LEGO Education SPIKE Prime. Also, the AISTEAM integrated grayscale module was utilized as the AISTEAM roof vision module is compatible with the AISTEAM controller. Additionally, the AISTEAM integrated grayscale module was the only sensor besides the AISTEAM vision module that could differentiate between different colors through its ability to detect reflected light values. Similar to the motors selected, both sensors used were compatible with the team’s LEGO-built robot. Throughout the time, the AISTEAM expansion screen module was also used for easier debugging of the program. 
 
 
 Obstacle Management
@@ -57,7 +57,7 @@ A consistent strategy to negotiate the different colors and positions of the obs
 
 ### 1.1. 
 #### When would it happen?
-When the robot is in the middle part of the driving lane and the green obstacle is in either X-intersections or far T-intersections of the straightforward sections.
+When the robot is in the middle part of the driving lane and the green obstacle is on either X-intersections or far T-intersections of the straightforward sections.
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/c5d9ca77-4e87-4525-b708-9c0987da2434" width="420" height="500" />
 
@@ -78,9 +78,11 @@ When the orange line is detected after the above action was done, do Subprogram 
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/b416c073-9da2-4dac-9ec6-858d38879329" width="420" height="500" />
 
+The robot would go backwards to make it go where the team would direct it, facing the middle zone of the next straightforward section without hitting any possible obstacles placed either near T-intersections of the section and having the right distance to make specific actions if there are obstacles placed on the intersections.
+
 ### 1.2. 
 #### When would it happen?
-When the robot is in the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there are no obstacles in either near T-intersections of the next straightforward section.
+When the robot is on the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there are no obstacles on either near T-intersections of the next straightforward section.
 
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/b317faef-fc33-4e1c-be29-fb1c391f7272" width="420" height="500" />
@@ -90,13 +92,13 @@ When the robot is in the middle part of the driving lane, the red obstacle is in
 <pre>                     Instance 1                                                Instance 2   </pre>   
 
 #### What should it do?
-The robot would drive past the red obstacle, go to the right side of its current straightforward section, and turn to the middle zone of the next straightforward section. When the orange line is detected after the above action was done, do Subprogram 2.2.
+The robot would drive past the red obstacle, go to the right side of its current straightforward section, then turn to the middle zone of the next straightforward section. When the orange line is detected after the above action was done, do Subprogram 2.2.
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/ccb47793-d3ba-446b-bf43-26356f207358)" width="420" height="500" />
 
 ### 1.3. 
 #### When would it happen?
-When the robot is in the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there is a green obstacle in either near T-intersections of the next straightforward section.
+When the robot is on the middle part of the driving lane, the red obstacle is on either far T-intersections of the straightforward sections, and there is a green obstacle in either near T-intersections of the next straightforward section.
 
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/96465fe5-c9e5-45d6-aa8f-d6634776e1e5" width="420" height="500" />
@@ -112,7 +114,7 @@ When the robot is in the middle part of the driving lane, the red obstacle is in
 <pre>                     Instance 3                                                Instance 4   </pre>  
 
 #### What should it do?
-The robot would drive past the red obstacle, go to the right side of its current straightforward section, drive past the green obstacle by turning to the left side of the next straightforward section, and go back to the middle zone of its current straightforward section (next straightforward section).
+The robot would drive past the red obstacle, go to the right side of its current straightforward section, drive past the green obstacle by turning to the left side of the next straightforward section, then go back to the middle zone of its current straightforward section (next straightforward section).
 When the orange line is detected after the above action was done, do Subprogram 2.2.
 ### 1.4. 
 #### When would it happen?
@@ -131,11 +133,11 @@ When the robot is in the middle part of the driving lane, the red obstacle is in
 <pre>                     Instance 3                                                Instance 4   </pre>  
 
 #### What should it do?
-The robot would drive past the red obstacle, go to the right side of its current straightforward section, drive past the red obstacle by turning to the right side of the next straightforward section, and go back to the middle zone of its current straightforward section (next straightforward section).
+The robot would drive past the red obstacle, go to the right side of its current straightforward section, drive past the red obstacle by turning to the right side of the next straightforward section, then go back to the middle zone of its current straightforward section (next straightforward section).
 When the orange line is detected after the above action was done, do Subprogram 2.2.
 ### 1.5. 
 #### When would it happen?
-When the robot is in the middle part of the driving lane and the green obstacle is in either near T-intersections of the straightforward sections.
+When the robot is in the middle part of the driving lane and the green obstacle is on either near T-intersections of the straightforward sections.
 
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/badb0271-f94e-49b2-8be1-6fd811e48f2b" width="420" height="680" />
@@ -145,11 +147,11 @@ When the robot is in the middle part of the driving lane and the green obstacle 
 <pre>                     Instance 1                                                Instance 2   </pre>   
 
 #### What should it do?
-The robot would drive past the green obstacle by going to the left side of its current straightforward section, and go back to the middle zone of its current straightforward section.
+The robot would drive past the green obstacle by going to the left side of its current straightforward section, then go back to the middle zone of its current straightforward section.
 When the orange line is detected after the above action was done, do Subprogram 2.1.
 ### 1.6. 
 #### When would it happen?
-When the robot is in the middle part of the driving lane and the red obstacle is in either near T-intersections of the straightforward sections.
+When the robot is on the middle part of the driving lane and the red obstacle is on either near T-intersections of the straightforward sections.
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/bc903e83-d6fd-4d49-a097-d0721a0ec9e9" width="420" height="680" />
 
@@ -158,11 +160,11 @@ When the robot is in the middle part of the driving lane and the red obstacle is
 <pre>                     Instance 1                                                Instance 2   </pre>  
 
 #### What should it do?
-The robot would drive past the red obstacle by going to the right side of its current straightforward section, and go back to the middle zone of its current straightforward section.
+The robot would drive past the red obstacle by going to the right side of its current straightforward section, then go back to the middle zone of its current straightforward section.
 When the orange line is detected after the above action was done, do Subprogram 2.2.
 ### 1.7. 
 #### When would it happen?
-When the robot is in the middle part of the driving lane and there were no obstacles in front of it.
+When the robot is on the middle part of the driving lane and there were no obstacles in front of it.
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/1d175e10-30ba-4799-80ac-e83b7aad76b2" width="420" height="680" />
 
@@ -173,7 +175,7 @@ The robot would just drive forward.
 When the orange line is detected after the above action was done, do Subprogram 2.2.
 #####
 `Subprogram 1:`
-The robot would go backwards for a short amount of time, then go forward and turn 90 degrees facing the next straight forward section, go backwards again for a short amount of time, and finally go forward. 
+The robot would go backwards for a short amount of time, go forward and turn 90 degrees facing the next straight forward section, then go backwards again for a short amount of time, and finally go forward. 
 #####
 `Subprogram 2:`
 The robot would turn 90 degrees, go backwards for a short amount of time, and finally go forward.

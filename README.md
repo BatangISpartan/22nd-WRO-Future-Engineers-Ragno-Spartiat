@@ -51,74 +51,50 @@ A consistent strategy to negotiate the different colors and positions of the obs
 
 ### 1.1. 
 #### When would it happen?
-
 When the robot is in the middle part of the driving lane and the green obstacle is in either X-intersections or far T-intersections of the straightforward sections.
 #### What should it do?
-
 The robot would drive past the green obstacle by going to the left side of its current straightforward section. 
 When the orange line is detected after the above action was done, do Subprogram 2.1.
 ### 1.2. 
 #### When would it happen?
-
 When the robot is in the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there are no obstacles in either near T-intersections of the next straightforward section.
 #### What should it do?
-
 The robot would drive past the red obstacle, go to the right side of its current straightforward section, and turn to the middle zone of the next straightforward section. When the orange line is detected after the above action was done, do Subprogram 2.2.
-
 ### 1.3. 
 #### When would it happen?
 When the robot is in the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there is a green obstacle in either near T-intersections of the next straightforward section.
 #### What should it do?
-
 The robot would drive past the red obstacle, go to the right side of its current straightforward section, drive past the green obstacle by turning to the left side of the next straightforward section, and go back to the middle zone of its current straightforward section (next straightforward section).
 When the orange line is detected after the above action was done, do Subprogram 2.2.
-
 ### 1.4. 
 #### When would it happen?
 When the robot is in the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there is a red obstacle in either near T-intersections of the next straightforward section.
-
 #### What should it do?
 The robot would drive past the red obstacle, go to the right side of its current straightforward section, drive past the red obstacle by turning to the right side of the next straightforward section, and go back to the middle zone of its current straightforward section (next straightforward section).
 When the orange line is detected after the above action was done, do Subprogram 2.2.
-
-
 ### 1.5. 
 #### When would it happen?
-    When the robot is in the middle part of the driving lane and the green obstacle is in either near 
-    T-intersections of the straightforward sections.
+When the robot is in the middle part of the driving lane and the green obstacle is in either near T-intersections of the straightforward sections.
 #### What should it do?
-    The robot would drive past the green obstacle by going to the left side of its current straightforward 
-    section, and go back to the middle zone of its current straightforward section.
-    When the orange line is detected after the above action was done, do Subprogram 2.1.
-
-
+The robot would drive past the green obstacle by going to the left side of its current straightforward section, and go back to the middle zone of its current straightforward section.
+When the orange line is detected after the above action was done, do Subprogram 2.1.
 ### 1.6. 
 #### When would it happen?
-    When the robot is in the middle part of the driving lane and the red obstacle is in either 
-    near T-intersections of the straightforward sections.
-
+When the robot is in the middle part of the driving lane and the red obstacle is in either near T-intersections of the straightforward sections.
 #### What should it do?
-    The robot would drive past the red obstacle by going to the right side of its current straightforward
-    section, and go back to the middle zone of its current straightforward section.
-    When the orange line is detected after the above action was done, do Subprogram 2.2.
-
-
-
+The robot would drive past the red obstacle by going to the right side of its current straightforward section, and go back to the middle zone of its current straightforward section.
+When the orange line is detected after the above action was done, do Subprogram 2.2.
 ### 1.7. 
 #### When would it happen?
-    When the robot is in the middle part of the driving lane and there were no obstacles in front of it.
-
+When the robot is in the middle part of the driving lane and there were no obstacles in front of it.
 #### What should it do?
-    The robot would just drive forward.
-    When the orange line is detected after the above action was done, do Subprogram 2.2.
+The robot would just drive forward.
+When the orange line is detected after the above action was done, do Subprogram 2.2.
 #####
-`Subprogram 1`
-
-    The robot would go backwards for a short amount of time, then go forward and turn 90 degrees facing the 
-    next straight forward section, go backwards again for a short amount of time, and finally go forward. 
+`Subprogram 1:`
+The robot would go backwards for a short amount of time, then go forward and turn 90 degrees facing the next straight forward section, go backwards again for a short amount of time, and finally go forward. 
 #####
-`Subprogram 2`
-
-    The robot would turn 90 degrees, go backwards for a short amount of time, and finally go forward.
+`Subprogram 2:`
+The robot would turn 90 degrees, go backwards for a short amount of time, and finally go forward.
 
     

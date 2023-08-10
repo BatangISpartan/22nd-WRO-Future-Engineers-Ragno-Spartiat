@@ -1,6 +1,6 @@
 22nd WRO Future Engineers 
-* Ragno Spartiat
-* Batangas State University - The National Engineering University Integrated School 
+*'Ragno Spartiat'
+*'Batangas State University - The National Engineering University Integrated School'
 * Engineering materials
 ====
 

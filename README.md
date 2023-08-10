@@ -19,7 +19,7 @@ Additionally, the `AISTEAM simulated steering gear module` was used as a steerin
 
 
   
-They were the selected motors for the robot since they were some of the few motors that were compatible with the controller used for the robot, the AISTEAM controller. It should be taken into account that the team had not considered using the AISTEAM digital steering gear module since it did not come with the AISTEAM kit that the team’s school had ordered. Furthermore, both motors selected were compatible with the team’s LEGO-built robot.
+They were chosen as the robot's motors for the reason that they were some of the few motors that were compatible with the controller used for the robot, the AISTEAM controller. Furthermore, both motors selected were compatible with the team’s LEGO-built robot.
 
 Power Management
 ===
@@ -51,7 +51,7 @@ The team had decided to specifically use these sensors primarily because of the 
 Obstacle Management
 ===
 
-A consistent strategy to negotiate the different colors and positions of the obstacles is necessary to have the possible maximum score for the obstacle challenge round. The team had made a total of `7 subprograms` that should cover every possibility of the color and position of the obstacles. 
+A consistent strategy to negotiate the different colors and positions of the obstacles is necessary to have the possible maximum score for the obstacle challenge round. The team had made a total of `seven (7) subprograms` that should cover every possibility of the color and position of the obstacles. 
 
 ##### Lists of Subprograms
 

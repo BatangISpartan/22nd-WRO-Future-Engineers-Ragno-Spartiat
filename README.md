@@ -34,9 +34,9 @@ Sense Management
 In order to provide the robot the data necessary for doing specific actions, the team utilized these following sensors:
 
 * AISTEAM integrated grayscale module
-  <img src=""260" />
+  <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/d9226240-d38d-480c-9e96-ad5f7528378f" width="420" height="260" />
 * AISTEAM roof vision module
-
+  <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/5a4fa97e-f2da-4ff0-9777-644ab267ea35" width="420" height="260" />
 The `AISTEAM integrated grayscale module` was used to determine where and when the robot should turn; if it is positioned near the orange line of the robot field, the robot should turn clockwise, and it should turn counterclockwise when the AISTEAM integrated grayscale module is placed near the blue line of the robot field. The AISTEAM roof vision module was used to detect the color of the obstacles that the robot should avoid.
 
 
@@ -46,7 +46,7 @@ The team had decided to specifically use these sensors primarily because of the 
 Obstacle Management
 ===
 
-A consistent strategy to negotiate the different colors and positions of the obstacles is necessary to have the possible maximum score for the obstacle challenge round. The team had made a total of 7 subprograms that should cover every possibility of the color and position of the obstacles. 
+A consistent strategy to negotiate the different colors and positions of the obstacles is necessary to have the possible maximum score for the obstacle challenge round. The team had made a total of `7 subprograms` that should cover every possibility of the color and position of the obstacles. 
 
 ##### Lists of Subprograms
 

@@ -81,7 +81,7 @@ When the robot is in the middle part of the driving lane, the red obstacle is in
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/b317faef-fc33-4e1c-be29-fb1c391f7272" width="420" height="500" />
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/dca08922-932e-4e24-a584-05bbeabd4464" width="420" height="500" />
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/43deba39-d186-4761-8ea4-056de433c982" width="420" height="500" />
 
 <pre>                     Instance 1                                                Instance 2   </pre>   
 

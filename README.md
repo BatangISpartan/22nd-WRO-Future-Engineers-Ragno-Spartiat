@@ -101,62 +101,31 @@ A consistent strategy to negotiate the different colors and positions of the obs
 
 1.6. 
 #### When would it happen?
-    
+    When the robot is in the middle part of the driving lane and the red obstacle is in either near T-intersections of the 
+    straightforward sections.
 
 #### What should it do?
-    
+    The robot would drive past the red obstacle by going to the right side of its current straightforward section, and go 
+    back to the middle zone of its current straightforward section.
+    When the orange line is detected after the above action was done, do Subprogram 2.2.
 
 
-1.5. 
+
+1.7. 
 #### When would it happen?
-    
+    When the robot is in the middle part of the driving lane and there were no obstacles in front of it.
 
 #### What should it do?
+    The robot would just drive forward.
+    When the orange line is detected after the above action was done, do Subprogram 2.2.
+
+`Subprogram 1`
+     
+    The robot would go backwards for a short amount of time, then go forward and turn 90 degrees facing the next straight 
+    forward section, go backwards again for a short amount of time, and finally go forward. 
+
+`Subprogram 2`
+
+    The robot would turn 90 degrees, go backwards for a short amount of time, and finally go forward.
+
     
-
-
-
-1.5. 
-#### When would it happen?
-    
-
-#### What should it do?
-    
-
-
-
-
-1.5. 
-#### When would it happen?
-    
-
-#### What should it do?
-    
-
-
-
-1.5. 
-#### When would it happen?
-    
-
-#### What should it do?
-    
-
-
-
-1.5. 
-#### When would it happen?
-    
-
-#### What should it do?
-    
-
-
-
-
-
-
-
-
-
-

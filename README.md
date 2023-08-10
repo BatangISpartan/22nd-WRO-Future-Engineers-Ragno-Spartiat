@@ -83,15 +83,19 @@ When the robot is in the middle part of the driving lane, the red obstacle is in
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/dca08922-932e-4e24-a584-05bbeabd4464" width="420" height="500" />
 
-<img src="" width="420" height="500" />
-
-<img src="" width="420" height="500" />
+<pre>                     Instance 1                                                Instance 2   </pre>   
 
 #### What should it do?
 The robot would drive past the red obstacle, go to the right side of its current straightforward section, and turn to the middle zone of the next straightforward section. When the orange line is detected after the above action was done, do Subprogram 2.2.
 ### 1.3. 
 #### When would it happen?
 When the robot is in the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there is a green obstacle in either near T-intersections of the next straightforward section.
+
+
+<img src="" width="420" height="500" />
+
+<img src="" width="420" height="500" />
+
 #### What should it do?
 The robot would drive past the red obstacle, go to the right side of its current straightforward section, drive past the green obstacle by turning to the left side of the next straightforward section, and go back to the middle zone of its current straightforward section (next straightforward section).
 When the orange line is detected after the above action was done, do Subprogram 2.2.

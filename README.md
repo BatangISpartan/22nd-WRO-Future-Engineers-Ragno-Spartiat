@@ -103,4 +103,5 @@ The robot would go backwards for a short amount of time, then go forward and tur
 `Subprogram 2:`
 The robot would turn 90 degrees, go backwards for a short amount of time, and finally go forward.
 
-    
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/6d2827ec-33cd-4c66-8556-6cfb064d8851" width="420" height="180" />
+

@@ -34,9 +34,10 @@ Sense Management
 In order to provide the robot the data necessary for doing specific actions, the team utilized these following sensors:
 
 * AISTEAM integrated grayscale module
+  <img src=""260" />
 * AISTEAM roof vision module
 
-The `AISTEAM integrated grayscale module`3 was used to determine where and when the robot should turn; if it is positioned near the orange line of the robot field, the robot should turn clockwise, and it should turn counterclockwise when the AISTEAM integrated grayscale module is placed near the blue line of the robot field. The AISTEAM roof vision module was used to detect the color of the obstacles that the robot should avoid.
+The `AISTEAM integrated grayscale module` was used to determine where and when the robot should turn; if it is positioned near the orange line of the robot field, the robot should turn clockwise, and it should turn counterclockwise when the AISTEAM integrated grayscale module is placed near the blue line of the robot field. The AISTEAM roof vision module was used to detect the color of the obstacles that the robot should avoid.
 
 
 The team had decided to specifically use these sensors primarily because of the `AISTEAM roof vision module` itself; it was the best equipment that the team had to be able to distinguish the obstacles in a pretty long and wide range, much better compared to the color sensor of the LEGO MINDSTORMS EV3 and LEGO Education SPIKE Prime. Then the AISTEAM integrated grayscale module was selected since the AISTEAM roof vision module can only be utilized when the AISTEAM controller is used, and the AISTEAM integrated grayscale module was the only sensor besides the AISTEAM vision module that could differentiate between different colors through its ability to detect reflected light values. Similar to the motors selected, both sensors used were compatible with the team’s LEGO-built robot. Throughout the time, the AISTEAM expansion screen module was also used for easier debugging of the program. 

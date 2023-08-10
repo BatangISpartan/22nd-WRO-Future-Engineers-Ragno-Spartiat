@@ -1,8 +1,9 @@
 22nd WRO Future Engineers 
 ===
 
-(Ragno Spartiat)
-===
+Ragno Spartiat
+Batangas State University - The National Engineering University
+==
 
 Engineering materials
 ====

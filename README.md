@@ -1,7 +1,6 @@
 22nd WRO Future Engineers 
-Ragno Spartiat
-Batangas State University - The National Engineering University Integrated School
-Engineering materials
+* (Ragno Spartiat)
+* Engineering materials
 ====
 
 This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.

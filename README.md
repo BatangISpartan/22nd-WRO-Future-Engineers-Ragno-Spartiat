@@ -123,12 +123,12 @@ A consistent strategy to negotiate the different colors and positions of the obs
 #### What should it do?
     The robot would just drive forward.
     When the orange line is detected after the above action was done, do Subprogram 2.2.
-###
+####
 `Subprogram 1`
 ===
     The robot would go backwards for a short amount of time, then go forward and turn 90 degrees facing the 
     next straight forward section, go backwards again for a short amount of time, and finally go forward. 
-###
+####
 `Subprogram 2`
 ===
     The robot would turn 90 degrees, go backwards for a short amount of time, and finally go forward.

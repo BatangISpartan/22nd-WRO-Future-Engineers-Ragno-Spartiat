@@ -75,9 +75,13 @@ When the robot is in the middle part of the driving lane and the green obstacle 
 #### What should it do?
 The robot would drive past the green obstacle by going to the left side of its current straightforward section. 
 When the orange line is detected after the above action was done, do Subprogram 2.1.
+
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/b416c073-9da2-4dac-9ec6-858d38879329" width="420" height="500" />
+
 ### 1.2. 
 #### When would it happen?
 When the robot is in the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there are no obstacles in either near T-intersections of the next straightforward section.
+
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/b317faef-fc33-4e1c-be29-fb1c391f7272" width="420" height="500" />
 
@@ -87,6 +91,9 @@ When the robot is in the middle part of the driving lane, the red obstacle is in
 
 #### What should it do?
 The robot would drive past the red obstacle, go to the right side of its current straightforward section, and turn to the middle zone of the next straightforward section. When the orange line is detected after the above action was done, do Subprogram 2.2.
+
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/ccb47793-d3ba-446b-bf43-26356f207358)" width="420" height="500" />
+
 ### 1.3. 
 #### When would it happen?
 When the robot is in the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there is a green obstacle in either near T-intersections of the next straightforward section.
@@ -131,9 +138,9 @@ When the orange line is detected after the above action was done, do Subprogram 
 When the robot is in the middle part of the driving lane and the green obstacle is in either near T-intersections of the straightforward sections.
 
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/badb0271-f94e-49b2-8be1-6fd811e48f2b" width="420" height="700" />
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/badb0271-f94e-49b2-8be1-6fd811e48f2b" width="420" height="680" />
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/c008c6fa-c062-4daa-9351-6c70ba15076b" width="420" height="700" />
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/c008c6fa-c062-4daa-9351-6c70ba15076b" width="420" height="680" />
 
 <pre>                     Instance 1                                                Instance 2   </pre>   
 
@@ -144,9 +151,9 @@ When the orange line is detected after the above action was done, do Subprogram 
 #### When would it happen?
 When the robot is in the middle part of the driving lane and the red obstacle is in either near T-intersections of the straightforward sections.
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/bc903e83-d6fd-4d49-a097-d0721a0ec9e9" width="420" height="700" />
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/bc903e83-d6fd-4d49-a097-d0721a0ec9e9" width="420" height="680" />
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/06631e34-8296-433a-8e5f-12a206f3de33" width="420" height="700" />
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/06631e34-8296-433a-8e5f-12a206f3de33" width="420" height="680" />
 
 <pre>                     Instance 1                                                Instance 2   </pre>  
 
@@ -157,7 +164,7 @@ When the orange line is detected after the above action was done, do Subprogram 
 #### When would it happen?
 When the robot is in the middle part of the driving lane and there were no obstacles in front of it.
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/1d175e10-30ba-4799-80ac-e83b7aad76b2" width="420" height="700" />
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/1d175e10-30ba-4799-80ac-e83b7aad76b2" width="420" height="680" />
 
 <pre>                     Instance 1                                         </pre>  
 

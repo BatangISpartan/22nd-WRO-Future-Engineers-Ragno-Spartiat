@@ -17,7 +17,8 @@ For the mobility of the robot, the team had chosen these following motors:
   
 The `AISTEAM ordinary motor module v1` was used as the driving motor of the robot. It has a working voltage of 7.4 V, with rated speed of 200 RPM±10%, reduction ratio of 1:120, and a no-load current of 50 mA. It can provide the highest speed value while also having the ability to rotate 360°.
 
-  <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/bdde8714-614a-473f-ac8e-6f8c9b029b07" width="230" height="150" />
+  <img src="![motor2](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/80256a89-4477-4add-b727-f06101778d38)
+" width="230" height="150" />
 
 Additionally, the `AISTEAM simulated steering gear module` was used as a steering motor. It has a working voltage of 5 V, torque of 1.5 kgf·cm, angle range of 0 to 180°, and a speed of 120 ms/60°. It's the only motor that was specifically designed for steering, thus having the ability to create highly precise rotations necessary for a steering motor. 
 
@@ -28,7 +29,8 @@ They were chosen as the robot's motors for the reason that they were some of the
 Power Management
 ===
 
-  <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/23320d6a-0b29-4d37-aa43-9baf4e3c1874)" width="420" height="260" />
+  <img src="![batt](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/595acfa7-39d2-4342-85f1-73b56b57a48c)
+" width="420" height="260" />
 
 The power source used by the robot was an `AISTEAM lithium battery module` since the AISTEAM controller was used to process the program of the robot. The AISTEAM lithium battery has an output voltage of 7.4 V, with rated capacity of 1100 mAh, maximum discharge rate of 3 C, rated charging voltage of 8.4 V, and a rated charging current of 1 A. The said battery uses a dedicated 8.4 V 1 A charger to charge itself.
 
@@ -37,11 +39,13 @@ Sense Management
 
 Furthermore, in order to provide the data for the robot in doing specific actions, the team utilized these following sensors:
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/d9226240-d38d-480c-9e96-ad5f7528378f" width="420" height="180" />
+<img src="![grayscale](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/c877df14-9381-4f9e-a47c-b7d734116dad)
+" width="420" height="180" />
 
 * AISTEAM integrated grayscale module
   
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/5a4fa97e-f2da-4ff0-9777-644ab267ea35" width="250" height="320" />
+<img src="![vision](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/573fa14c-56b8-4af5-9b07-6b4fd58af56e)
+" width="250" height="320" />
   
 * AISTEAM roof vision module
   
@@ -63,15 +67,20 @@ A consistent strategy to negotiate the different colors and positions of the obs
 #### When would it happen?
 When the robot is in the middle part of the driving lane and the green obstacle is on either X-intersections or far T-intersections of the straightforward sections.
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/c5d9ca77-4e87-4525-b708-9c0987da2434" width="380" height="500" />
+<img src="![364248596_1934821533558212_4705157033930413007_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/67f1dd6a-21bb-41bd-b9ca-fc10af8995bb)
+" width="380" height="500" />
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/1e58960f-f44d-482b-9a60-e0170d0fcf78" width="380" height="500" />
+<img src="![365427364_215240971487940_1256848879825494967_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/2eb4b8f5-15b3-414f-bb12-9cba6f290f98)
+" width="380" height="500" />
 
 <pre>                  Instance 1                                                Instance 2   </pre>   
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/377d03db-60ef-4e24-bf62-2a56e898435e" width="380" height="500" />
+<img src="![365451255_729072872362557_7812291856965569965_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/4001a737-6153-44b1-9295-69805cfbbaf7)
+" width="380" height="500" />
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/39d6746b-4cb9-431d-9930-9e563d159cd0" width="380" height="500" />
+<img src='![365876148_841961840335794_1556787074045425755_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/71d36b56-d5ab-4ebf-b703-2cabd52d7e12)
+
+" width="380" height="500" />
 
 <pre>                  Instance 3                                                Instance 4   </pre>   
 
@@ -80,7 +89,8 @@ When the robot is in the middle part of the driving lane and the green obstacle 
 The robot would drive past the green obstacle by going to the left side of its current straightforward section. 
 When the orange line is detected after the above action was done, do Subprogram 2.1.
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141935021/b416c073-9da2-4dac-9ec6-858d38879329" width="380" height="500" />
+<img src="![365858650_323051130063385_2190989265658690473_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/ebab84c4-e9c6-4789-8bdc-21c498b57019)
+" width="380" height="500" />
 
 The robot would go backwards to make it go where the team would direct it, facing the middle zone of the next straightforward section without hitting any possible obstacles placed either near T-intersections of the section and having the right distance to make specific actions if there are obstacles placed on the intersections.
 

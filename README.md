@@ -66,22 +66,7 @@ A consistent strategy to negotiate the different colors and positions of the obs
 #### When would it happen?
 When the robot is in the middle part of the driving lane and the green obstacle is on either X-intersections or far T-intersections of the straightforward sections.
 
-![364248596_1934821533558212_4705157033930413007_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/67f1dd6a-21bb-41bd-b9ca-fc10af8995bb)
-
-> Instance 1
-
-![365427364_215240971487940_1256848879825494967_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/2eb4b8f5-15b3-414f-bb12-9cba6f290f98)
-
-> Instance 2 
-
-![365451255_729072872362557_7812291856965569965_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/4001a737-6153-44b1-9295-69805cfbbaf7)
-
-> Instance 3
-
-![365876148_841961840335794_1556787074045425755_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/71d36b56-d5ab-4ebf-b703-2cabd52d7e12)
-
-> Instance 4  
-
+![1](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/30bdaf61-082f-4313-8729-f82caf5cedcf)
 
 #### What should it do?
 The robot would drive past the green obstacle by going to the left side of its current straightforward section. 
@@ -95,13 +80,7 @@ The robot would go backwards to make it go where the team would direct it, facin
 #### When would it happen?
 When the robot is on the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there are no obstacles on either near T-intersections of the next straightforward section.
 
-![365856986_742144051048717_5854401961509150031_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/a494d4ed-f1b7-48b5-82bd-7d7a723b43bd)
-
-> Instance 1                                                
-
-![363859674_961096155170471_9030371566911409931_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/a52851be-fa61-416f-9685-c0b2ffa4ea53)
-
-> Instance 2     
+![2](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/342e4eca-4781-4b30-9e51-0e5beca17f55)
 
 #### What should it do?
 The robot would drive past the red obstacle, go to the right side of its current straightforward section, then turn to the middle zone of the next straightforward section. When the orange line is detected after the above action was done, do Subprogram 2.2.
@@ -114,21 +93,8 @@ The robot would drive past the red obstacle, go to the right side of its current
 When the robot is on the middle part of the driving lane, the red obstacle is on either far T-intersections of the straightforward sections, and there is a green obstacle in either near T-intersections of the next straightforward section.
 
 
-![365406075_840695327421863_790594989816311979_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/73bb3fab-f873-488f-a01f-0e3e62a473a2)
+![3](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/a2f367b9-602f-4b26-9846-2c06251fa7f5)
 
-> Instance 1                                                
-
-![363807969_1567971910393236_8678672848643585991_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/e050b838-cde3-4367-8a74-5b487dd455d9)
-
-> Instance 2
-
-![364184359_167246032992219_7393715298574310805_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/1a9cf8e9-c54a-4267-80ec-d86c0538031a)
-
-> Instance 3
-                                        
- ![364184359_167246032992219_7393715298574310805_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/e2a2b43a-5e85-42b1-bef1-733ca66c0f95)
-
-> Instance 4   
 
 #### What should it do?
 The robot would drive past the red obstacle, go to the right side of its current straightforward section, drive past the green obstacle by turning to the left side of the next straightforward section, then go back to the middle zone of its current straightforward section (next straightforward section).
@@ -141,21 +107,8 @@ When the orange line is detected after the above action was done, do Subprogram 
 #### When would it happen?
 When the robot is in the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there is a red obstacle in either near T-intersections of the next straightforward section.
 
-![364232885_305371328599373_8833561188991171037_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/b4efd61e-3f8f-4c6d-bf59-ad79d4a86490)
+![4](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/b9090400-6093-4a49-afb2-57ee002341b8)
 
-> Instance 1
-
-![365418955_313669737787132_5262825662046624613_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/9c1270a0-4ecf-4f8e-a315-75aedd01fa9e)
-
-> Instance 2 
-
-![365429277_316903797399098_77512566296072823_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/de5072ce-d1b3-420e-b144-e7018c302473)
-
-> Instance 3 
-
-![365883376_649089616941977_3326385884029608723_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/74afccf5-98f1-48f2-a350-7d8213dd5bbc)
-
-> Instance 4  
 
 #### What should it do?
 The robot would drive past the red obstacle, go to the right side of its current straightforward section, drive past the red obstacle by turning to the right side of the next straightforward section, then go back to the middle zone of its current straightforward section (next straightforward section).
@@ -168,13 +121,7 @@ When the orange line is detected after the above action was done, do Subprogram 
 #### When would it happen?
 When the robot is in the middle part of the driving lane and the green obstacle is on either near T-intersections of the straightforward sections.
 
-![363894236_259890413503613_831385219956784617_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/ad60960a-2499-49a0-9038-bb855f0602ff)
-
-> Instance 1  
-
-![365435292_312604531133590_5816051301074018715_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/d9e85c1d-ba75-450d-b46a-b3db1320672c)
-
-> Instance 2  
+![5](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/deb43eda-83b2-46b4-aabb-3df0e29a40a3)
 
 #### What should it do?
 The robot would drive past the green obstacle by going to the left side of its current straightforward section, then go back to the middle zone of its current straightforward section.
@@ -186,13 +133,7 @@ When the orange line is detected after the above action was done, do Subprogram 
 #### When would it happen?
 When the robot is on the middle part of the driving lane and the red obstacle is on either near T-intersections of the straightforward sections.
 
-![365419189_1790381031376833_3896697286743086534_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/3bbca243-344d-4d63-83f6-79da0faab74a)
-
-> Instance 1
-
-![365843670_626538282878384_5446446514568614513_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/3148afa6-f489-4997-a713-486eeb46130d)
-
-> Instance 2  
+![6](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/e721145d-c472-4339-beda-573315f97106)
 
 #### What should it do?
 The robot would drive past the red obstacle by going to the right side of its current straightforward section, then go back to the middle zone of its current straightforward section.

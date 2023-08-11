@@ -6,8 +6,6 @@ Introducing, `Ragno Spartiat`, an autonomous car equipped with advanced technolo
 
 For a more detailed discussion about Ragno Spartiat, you can access this link: https://youtu.be/Bmv_tGzrct4 
 
-<img src="![Green Obstacle](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/6db6098e-3902-4358-8982-9b323829757b)
-" width="230" height="150" />
 
 Mobility Management
 ===

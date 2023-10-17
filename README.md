@@ -45,7 +45,7 @@ Furthermore, in order to provide the data for the robot in doing specific action
 
 * AISTEAM integrated grayscale module
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/573fa14c-56b8-4af5-9b07-6b4fd58af56e" width="250"> 
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/573fa14c-56b8-4af5-9b07-6b4fd58af56e" width="200"> 
 
   
 * AISTEAM roof vision module

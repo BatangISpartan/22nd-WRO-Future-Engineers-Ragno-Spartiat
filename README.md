@@ -40,7 +40,7 @@ Sense Management
 
 Furthermore, in order to provide the data for the robot in doing specific actions, the team utilized these following sensors:
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/c877df14-9381-4f9e-a47c-b7d734116dad" width="250"> 
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/c877df14-9381-4f9e-a47c-b7d734116dad" width="350"> 
 
 
 * AISTEAM integrated grayscale module

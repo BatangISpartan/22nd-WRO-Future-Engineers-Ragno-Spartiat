@@ -3,6 +3,7 @@ Ragno Spartiat
 ###### Philippine Robotics Team
 
 'Ragno Spartiat', an autonomous car equipped with advanced technology that enables it to effortlessly drive itself without requiring any human input or the use of remote control, designed and developed by Sam Efrain Cananua, Ma. Hannah Sofia Gomez, and Joseph Bernard Maala for the World Robot Olympiad 2023 in Panama. This will be used to successfully complete the open and obstacles challenges under the Future Engineers category.
+
 The core unit of Ragno Spartiat is a set of AISTEAM products which acts as the brain of the system while its physical structure is constructed using various LEGO kits such as Spike Prime, and Mindstorms EV3, as well as AISTEAM which is not a LEGO product but also has a LEGO-like building system. The selection of these components is done with great care to precisely match the team's preferences and their functionality is optimized through testing different parts. This process ensures that the final design is of high quality. To dig deeper, the significance of each crucial component used in the system is explained below.
 
 For a more detailed discussion about Ragno Spartiat, you can access this link: https://youtu.be/Bmv_tGzrct4 
@@ -13,25 +14,21 @@ Mobility Management
 
 For the mobility of the robot, the team had chosen these following motors:
 
+1.1. 'AISTEAM Ordinary Motor Module (V1 Version)'	
+
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/cfdee7b8-3b87-4bc3-82e4-614a67ef7bb6" width="250"> 
 
-1.1. AISTEAM Ordinary Motor Module (V1 Version)	
 
-
-This motor mainly served as the driving motor of the robot, specifically driving the wheels on the back axle of the robot. It has a working voltage of 7.4 V, with rated speed of 200 RPM±10%, reduction ratio of 1:120, and a no-load current of 50 mA. The shell of this motor can be connected to two (2) wheel axles and is compatible with the LEGO construction system. Among the motors that the team have, this motor was selected mainly for its ability to rotate really fast while also not having a limited angle range. This driving motor is directly connected to the back wheel axle, meaning it does not utilize a gearing system.\
+This motor mainly served as the driving motor of the robot, specifically driving the wheels on the back axle of the robot. It has a working voltage of 7.4 V, with rated speed of 200 RPM±10%, reduction ratio of 1:120, and a no-load current of 50 mA. The shell of this motor can be connected to two (2) wheel axles and is compatible with the LEGO construction system. Among the motors that the team have, this motor was selected mainly for its ability to rotate really fast while also not having a limited angle range. This driving motor is directly connected to the back wheel axle, meaning it does not utilize a gearing system.
 
 Additionally, this motor is also used to rotate the camera of the robot. The movements of the motor that controls the camera are programmed to be based on the color of the obstacle detected by the camera of the robot and the defined driving direction of that challenge round, which will be discussed later on this documentation. In total, two (2) of AISTEAM ordinary motor modules are used by the robot.
 
-
+1.2.   'AISTEAM Simulated Steering Gear Module'
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/80256a89-4477-4add-b727-f06101778d38" width="250"> 
 
+This motor was utilized as the steering motor of the robot.  It has a working voltage of 5 V, torque of 1.5 kgf·cm, and a speed of 120 ms/60°. This motor was chosen since it is specially designed for steering, having an angle range of 0° to 180°, thus having the ability to create highly precise rotations necessary for a steering motor. The shell of this motor is also compatible with the LEGO construction system. This steering motor steers the front axle of the robot to guide it to the direction where it needs to arrive. Only one (1) of AISTEAM simulated steering gear module is utilized by the robot.
 
-Additionally, the `AISTEAM simulated steering gear module` was used as a steering motor. It has a working voltage of 5 V, torque of 1.5 kgf·cm, angle range of 0 to 180°, and a speed of 120 ms/60°. It's the only motor that was specifically designed for steering, thus having the ability to create highly precise rotations necessary for a steering motor. 
-
-
-  
-They were chosen as the robot's motors for the reason that they were some of the few motors that were compatible with the controller used for the robot, the AISTEAM controller. Furthermore, both motors selected were compatible with the team’s LEGO-built robot.
 
 Power Management
 ===

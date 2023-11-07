@@ -80,6 +80,8 @@ Additional Components
 ===
 
 `4.1. AISTEAM Expansion Screen Module`
+
+
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141907756/76b6a7ef-e3d4-4351-955d-90c5e96deb34" width = "200">
 
 The expansion screen module has the ability to display alphanumeric characters and basic geometric figures such as rectangles and circles. It consists of a 0.96 inch low-powered OLED module and has a resolution of 128x64, a full-view display, and a SPI communication; the shell is equipped with a high-transmitting acrylic protection board. This screen module is directly connected to the controller of the robot. This component is specifically used for easier debugging of unexpected actions of the robot, thus saving much more time compared to having to analyze the whole program to figure out the problem.

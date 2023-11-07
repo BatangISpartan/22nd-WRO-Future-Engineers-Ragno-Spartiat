@@ -2,7 +2,7 @@ Ragno Spartiat
 ===================
 ###### Philippine Robotics Team
 
-'Ragno Spartiat', an autonomous car equipped with advanced technology that enables it to effortlessly drive itself without requiring any human input or the use of remote control, designed and developed by Sam Efrain Cananua, Ma. Hannah Sofia Gomez, and Joseph Bernard Maala for the World Robot Olympiad 2023 in Panama. This will be used to successfully complete the open and obstacles challenges under the Future Engineers category.
+`Ragno Spartiat`, an autonomous car equipped with advanced technology that enables it to effortlessly drive itself without requiring any human input or the use of remote control, designed and developed by Sam Efrain Cananua, Ma. Hannah Sofia Gomez, and Joseph Bernard Maala for the World Robot Olympiad 2023 in Panama. This will be used to successfully complete the open and obstacles challenges under the Future Engineers category.
 
 The core unit of Ragno Spartiat is a set of AISTEAM products which acts as the brain of the system while its physical structure is constructed using various LEGO kits such as Spike Prime, and Mindstorms EV3, as well as AISTEAM which is not a LEGO product but also has a LEGO-like building system. The selection of these components is done with great care to precisely match the team's preferences and their functionality is optimized through testing different parts. This process ensures that the final design is of high quality. To dig deeper, the significance of each crucial component used in the system is explained below.
 
@@ -14,7 +14,7 @@ Mobility Management
 
 For the mobility of the robot, the team had chosen these following motors:
 
-1.1. `AISTEAM Ordinary Motor Module (V1 Version)`
+`1.1. AISTEAM Ordinary Motor Module (V1 Version)`
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/cfdee7b8-3b87-4bc3-82e4-614a67ef7bb6" width="250"> 
 
@@ -23,7 +23,7 @@ This motor mainly served as the driving motor of the robot, specifically driving
 
 Additionally, this motor is also used to rotate the camera of the robot. The movements of the motor that controls the camera are programmed to be based on the color of the obstacle detected by the camera of the robot and the defined driving direction of that challenge round, which will be discussed later on this documentation. In total, two (2) of AISTEAM ordinary motor modules are used by the robot.
 
-1.2.   `AISTEAM Simulated Steering Gear Module`
+`1.2.   AISTEAM Simulated Steering Gear Module`
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/80256a89-4477-4add-b727-f06101778d38" width="250"> 
 
@@ -33,7 +33,7 @@ This motor was utilized as the steering motor of the robot.  It has a working vo
 Power Management
 ===
 
-2.1. `AISTEAM Controller`
+`2.1. AISTEAM Controller`
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141907756/dec4fb52-3638-48c0-bcfc-cb8f63c155ff" width="300">
 
@@ -41,7 +41,7 @@ This controller was used as the main controller of the robot, transferring the p
 
 
 
-2.2. `AISTEAM Lithium Battery Module`
+`2.2. AISTEAM Lithium Battery Module`
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/595acfa7-39d2-4342-85f1-73b56b57a48c" width="300"> 
 
@@ -54,21 +54,22 @@ Sense Management
 
 Furthermore, in order to provide the data for the robot in doing specific actions, the team utilized these following sensors:
 
-3.1.   `AISTEAM Integrated Grayscale Module` 
+`3.1.   AISTEAM Integrated Grayscale Module` 
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/c877df14-9381-4f9e-a47c-b7d734116dad" width="350"> 
 
 This sensor detects and measures different wavelengths of light using 5 visible light sources that enables it to identify a wide range of colors and be calibrated to specifically detect desired color. Its working voltage is 5 V, with a detection range of 0.8 cm to 1.6 cm, and its interface type is analog output. The sensor’s back supports the attachment of building blocks for expansion and construction. The team selected this sensor due to its exceptional effectiveness in color detection and its suitability for line-following applications. When the sensor is placed near the field which contains orange and blue lines, it measures the reflected light values and through this process, the sensor can determine whether the line it approached corresponds to the color orange or blue. However, due to the limitation of the main controller’s port for this sensor, only one (1) AISTEAM integrated grayscale module was utilized in the team’s robot.
 
-3.2.   `AISTEAM Infrared Barrier Avoidance Module (V2 Version)`
+`3.2.   AISTEAM Infrared Barrier Avoidance Module (V2 Version)`
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/573fa14c-56b8-4af5-9b07-6b4fd58af56e" width="200"> 
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141907756/f79dba99-d890-438e-9324-18bbd4779397"
+ width="200"> 
 
 An infrared barrier avoidance module is a sensor that detects the presence of objects or obstacles in its vicinity. It possesses the unique ability to not only identify the presence of these objects but also measure the absence of them, enabling the determination of the distance between an object and the sensor’s location. It operates at a voltage of 5 V and has an estimated detection range of 5 cm to 20 cm, allowing it to sense objects within this distance. However, this sensor only offers a detection accuracy of ±2cm when detecting objects with a white surface reflection. Due to constraints posed by limited resources, the team had no alternative but to rely on this particular sensor to facilitate obstacle avoidance and navigation, allowing the robot to maneuver safely, where it plays a vital role in identifying obstacles and walls, triggering the corresponding actions of the robot. It serves as a helpful tool in the automation and control of the robot.
 
-3.3.   `AISTEAM Roof Vision Module`
+`3.3.   AISTEAM Roof Vision Module`
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141907756/ce2ee9b8-c526-46ef-bf28-403f1123d995">
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/573fa14c-56b8-4af5-9b07-6b4fd58af56e" width="200"> 
 
 This device utilizes artificial intelligence (AI) algorithms to analyze and interpret visual information captured by the camera. Its structure allows for pitch angle adjustment and height adjustment for roof vision. This operates at a voltage of 5 V and has a viewing angle of 72 degrees. Additionally, it can achieve a maximum resolution of 320x240 pixels and supports a maximum code rate of 30 mbps. It is capable of performing various tasks such as tracking of multiple color blocks (up to 4 simultaneously), and processing of visual custom data. Due to this, it offers a broad range of AI vision applications, including LAB threshold debugging, template matching, visual line inspection, and visual range operations. It has the capability to identify and locate specific objects or entities within an image, it can also track and estimate the position of objects. This is the main reason as to why the team utilized this camera to identify and determine the position, color, and height of the obstacles to effectively enhance the autonomy of the robot. Its ability allows the robot to perform tasks based on their visual properties which helps in autonomous navigation and path planning.
 
@@ -78,8 +79,8 @@ This device utilizes artificial intelligence (AI) algorithms to analyze and inte
 Additional Components
 ===
 
-4.1. `AISTEAM Expansion Screen Module`
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141907756/76b6a7ef-e3d4-4351-955d-90c5e96deb34">
+`4.1. AISTEAM Expansion Screen Module`
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141907756/76b6a7ef-e3d4-4351-955d-90c5e96deb34" width = "200">
 
 The expansion screen module has the ability to display alphanumeric characters and basic geometric figures such as rectangles and circles. It consists of a 0.96 inch low-powered OLED module and has a resolution of 128x64, a full-view display, and a SPI communication; the shell is equipped with a high-transmitting acrylic protection board. This screen module is directly connected to the controller of the robot. This component is specifically used for easier debugging of unexpected actions of the robot, thus saving much more time compared to having to analyze the whole program to figure out the problem.
 

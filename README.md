@@ -1,8 +1,9 @@
 Ragno Spartiat
 ===================
-###### Batangas State University - The National Engineering University
+###### Philippine Robotics Team
 
-Introducing, `Ragno Spartiat`, an autonomous car equipped with advanced technology that enables it to effortlessly drive itself without requiring any human input or the use of remote control, built and programmed by Sam Efrain Cananua, Ma. Hannah Sofia Gomez, and Joseph Bernard Maala.
+'Ragno Spartiat', an autonomous car equipped with advanced technology that enables it to effortlessly drive itself without requiring any human input or the use of remote control, designed and developed by Sam Efrain Cananua, Ma. Hannah Sofia Gomez, and Joseph Bernard Maala for the World Robot Olympiad 2023 in Panama. This will be used to successfully complete the open and obstacles challenges under the Future Engineers category.
+The core unit of Ragno Spartiat is a set of AISTEAM products which acts as the brain of the system while its physical structure is constructed using various LEGO kits such as Spike Prime, and Mindstorms EV3, as well as AISTEAM which is not a LEGO product but also has a LEGO-like building system. The selection of these components is done with great care to precisely match the team's preferences and their functionality is optimized through testing different parts. This process ensures that the final design is of high quality. To dig deeper, the significance of each crucial component used in the system is explained below.
 
 For a more detailed discussion about Ragno Spartiat, you can access this link: https://youtu.be/Bmv_tGzrct4 
 

@@ -14,7 +14,7 @@ Mobility Management
 
 For the mobility of the robot, the team had chosen these following motors:
 
-1.1. 'AISTEAM Ordinary Motor Module (V1 Version)'	
+1.1. `AISTEAM Ordinary Motor Module (V1 Version)`
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/cfdee7b8-3b87-4bc3-82e4-614a67ef7bb6" width="250"> 
 
@@ -23,7 +23,7 @@ This motor mainly served as the driving motor of the robot, specifically driving
 
 Additionally, this motor is also used to rotate the camera of the robot. The movements of the motor that controls the camera are programmed to be based on the color of the obstacle detected by the camera of the robot and the defined driving direction of that challenge round, which will be discussed later on this documentation. In total, two (2) of AISTEAM ordinary motor modules are used by the robot.
 
-1.2.   'AISTEAM Simulated Steering Gear Module'
+1.2.   `AISTEAM Simulated Steering Gear Module`
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/80256a89-4477-4add-b727-f06101778d38" width="250"> 
 
@@ -33,138 +33,67 @@ This motor was utilized as the steering motor of the robot.  It has a working vo
 Power Management
 ===
 
+2.1. `AISTEAM Controller`
+
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141907756/dec4fb52-3638-48c0-bcfc-cb8f63c155ff" width="300">
+
+This controller was used as the main controller of the robot, transferring the power from the power source that will be introduced later to the connected modules. It has a main frequency of 72 MHz and its shell is compatible with the LEGO build system. It has a fixed-in button that is used to run the program to start the robot to do specific actions and turn on/off the controller itself. This is where all of the motors and sensors used by the robot are connected and the place where the program is saved.
+
+
+
+2.2. `AISTEAM Lithium Battery Module`
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/595acfa7-39d2-4342-85f1-73b56b57a48c" width="300"> 
 
 
-The power source used by the robot was an `AISTEAM lithium battery module` since the AISTEAM controller was used to process the program of the robot. The AISTEAM lithium battery has an output voltage of 7.4 V, with rated capacity of 1100 mAh, maximum discharge rate of 3 C, rated charging voltage of 8.4 V, and a rated charging current of 1 A. The said battery uses a dedicated 8.4 V 1 A charger to charge itself.
+This battery served as the main power source of the robot, mainly powering the AISTEAM controller. It has an output voltage of 7.4 V, rated capacity of 1100 mAh, maximum discharge rate of 3 C, rated charging voltage of 8.4 V, and a rated charging current of 1 A. The shell of the battery is compatible with the LEGO building system. The input and output ports of this battery are both DC.5 and it can be charged with the use of a dedicated 8.4 V 1 A charger. This is directly connected to the controller of the robot.
+
 
 Sense Management
 ===
 
 Furthermore, in order to provide the data for the robot in doing specific actions, the team utilized these following sensors:
 
+3.1.   `AISTEAM Integrated Grayscale Module` 
+
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/c877df14-9381-4f9e-a47c-b7d734116dad" width="350"> 
 
+This sensor detects and measures different wavelengths of light using 5 visible light sources that enables it to identify a wide range of colors and be calibrated to specifically detect desired color. Its working voltage is 5 V, with a detection range of 0.8 cm to 1.6 cm, and its interface type is analog output. The sensor’s back supports the attachment of building blocks for expansion and construction. The team selected this sensor due to its exceptional effectiveness in color detection and its suitability for line-following applications. When the sensor is placed near the field which contains orange and blue lines, it measures the reflected light values and through this process, the sensor can determine whether the line it approached corresponds to the color orange or blue. However, due to the limitation of the main controller’s port for this sensor, only one (1) AISTEAM integrated grayscale module was utilized in the team’s robot.
 
-* AISTEAM integrated grayscale module
+3.2.   `AISTEAM Infrared Barrier Avoidance Module (V2 Version)`
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/573fa14c-56b8-4af5-9b07-6b4fd58af56e" width="200"> 
 
-  
-* AISTEAM roof vision module
-  
+An infrared barrier avoidance module is a sensor that detects the presence of objects or obstacles in its vicinity. It possesses the unique ability to not only identify the presence of these objects but also measure the absence of them, enabling the determination of the distance between an object and the sensor’s location. It operates at a voltage of 5 V and has an estimated detection range of 5 cm to 20 cm, allowing it to sense objects within this distance. However, this sensor only offers a detection accuracy of ±2cm when detecting objects with a white surface reflection. Due to constraints posed by limited resources, the team had no alternative but to rely on this particular sensor to facilitate obstacle avoidance and navigation, allowing the robot to maneuver safely, where it plays a vital role in identifying obstacles and walls, triggering the corresponding actions of the robot. It serves as a helpful tool in the automation and control of the robot.
 
-The `AISTEAM integrated grayscale module` was used to determine when and where the robot should turn. If it is positioned near the orange line of the robot field, the robot should turn clockwise. Hence, when the module is placed near the blue line of the field it should turn counterclockwise. Additionally, the AISTEAM roof vision module was used to detect the color of the obstacles to be avoided.
+3.3.   `AISTEAM Roof Vision Module`
+
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141907756/ce2ee9b8-c526-46ef-bf28-403f1123d995">
+
+This device utilizes artificial intelligence (AI) algorithms to analyze and interpret visual information captured by the camera. Its structure allows for pitch angle adjustment and height adjustment for roof vision. This operates at a voltage of 5 V and has a viewing angle of 72 degrees. Additionally, it can achieve a maximum resolution of 320x240 pixels and supports a maximum code rate of 30 mbps. It is capable of performing various tasks such as tracking of multiple color blocks (up to 4 simultaneously), and processing of visual custom data. Due to this, it offers a broad range of AI vision applications, including LAB threshold debugging, template matching, visual line inspection, and visual range operations. It has the capability to identify and locate specific objects or entities within an image, it can also track and estimate the position of objects. This is the main reason as to why the team utilized this camera to identify and determine the position, color, and height of the obstacles to effectively enhance the autonomy of the robot. Its ability allows the robot to perform tasks based on their visual properties which helps in autonomous navigation and path planning.
 
 
-The team had decided to specifically use these sensors primarily because of the `AISTEAM roof vision module` itself. It was the best equipment that the team had in order to distinguish the obstacles in a pretty long and wide range, which was deemed much better compared to the color sensor of the LEGO MINDSTORMS EV3 and LEGO Education SPIKE Prime. Also, the AISTEAM integrated grayscale module was utilized as the AISTEAM roof vision module is compatible with the AISTEAM controller. Additionally, the AISTEAM integrated grayscale module was the only sensor besides the AISTEAM vision module that could differentiate between different colors through its ability to detect reflected light values. Similar to the motors selected, both sensors used were compatible with the team’s LEGO-built robot. Throughout the time, the AISTEAM expansion screen module was also used for easier debugging of the program. 
 
+
+Additional Components
+===
+
+4.1. `AISTEAM Expansion Screen Module`
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141907756/76b6a7ef-e3d4-4351-955d-90c5e96deb34">
+
+The expansion screen module has the ability to display alphanumeric characters and basic geometric figures such as rectangles and circles. It consists of a 0.96 inch low-powered OLED module and has a resolution of 128x64, a full-view display, and a SPI communication; the shell is equipped with a high-transmitting acrylic protection board. This screen module is directly connected to the controller of the robot. This component is specifically used for easier debugging of unexpected actions of the robot, thus saving much more time compared to having to analyze the whole program to figure out the problem.
 
 Obstacle Management
 ===
 
-A consistent strategy to negotiate the different colors and positions of the obstacles is necessary to have the possible maximum score for the obstacle challenge round. The team had made a total of `seven (7) subprograms` that should cover every possibility of the color and position of the obstacles. 
+A consistent strategy to negotiate the different colors and positions of the obstacles is necessary to have the possible maximum score for the obstacle challenge round. To be able to create such one, the team had spent a reasonable amount of time carefully brainstorming different thoughts and analyzing them with one another, combining the more interesting yet logically consistent and efficient ideas, and successfully developing a strategy.
 
-##### Lists of Subprograms
+The main strategy that the team had developed primarily revolved around two (2) things: first is making the camera have the ability to face different directions; the camera is fixed into a motor, which will be referred to as “camera motor” in this documentary. The camera motor can steer the camera up to nearly 360° efficiently, though the team had only designed the program to rotate the said motor for approximately 45° in both directions starting from its starting position for it to be able to move the camera consistently from one position to another. The actions of the camera motor are specifically based on the position of the robot in the game field, and that said robot position is the second thing where the strategy of the team revolves. 
 
-### 1.1. 
-#### When would it happen?
-When the robot is in the middle part of the driving lane and the green obstacle is on either X-intersections or far T-intersections of the straightforward sections.
+The robot is programmed to follow the walls of the game field based on only two (2) factors: the color of the detected obstacle and the defined driving direction of that challenge round. When the challenge round direction is set to clockwise, the robot would pass a green obstacle to its left and follow the outer wall while the robot would follow the inner wall after passing a red obstacle to its right. The other way around happens when the defined challenge round direction is counterclockwise, it would still pass the same obstacles to the same direction, as stated in the rule book, but the robot would follow the inner wall when the detected obstacle is color green while it would follow the outer wall when the obstacle is color red. The robot utilizes a sensor, the infrared barrier avoidance module, to be able to somewhat guide the robot to follow the walls efficiently. However, the said sensor only contributes to about 5% to 10% in terms of helping the robot wall-follow. There is a specific part of the robot where it highly relies when it is following the wall: the gears on both sides of the robot. When the said gears are in contact with the wall to be followed, the gears guide the robot to drive parallel to the wall.
 
-![1](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/30bdaf61-082f-4313-8729-f82caf5cedcf)
+Going back to discussing how the actions of the camera motor are managed, when the robot is following the outer wall, the camera motor would rotate towards the inner wall, otherwise the camera motor would rotate towards the outer wall if the robot is following the inner wall. The camera needs to be rotated when the robot is following a wall since the camera has not enough vision range to completely cover the detection of obstacles when it is facing at the front while also being at the side of the present obstacles. Even so, the camera does not only face in the left and right directions all the time, in some situations it faces at the front, specifically when it is trying to detect the color of a possible obstacle in the near T-intersections of the next section while the robot is about to pass the current straight section from the zone near the inner wall. 
 
-#### What should it do?
-The robot would drive past the green obstacle by going to the left side of its current straightforward section. 
-When the orange line is detected after the above action was done, do Subprogram 2.1.
+To be able to adapt to the fact that the challenge driving direction is randomly selected, the robot should be able to have a specific way to determine which direction it should drive by itself. By carefully observing the game field, the team had noticed that the slanted lines on the field can be used to determine the driving direction of the robot. The robot utilizes an integrated grayscale module to determine the color of the slanted lines: if the detected color is orange, the robot would know that the driving direction is clockwise, otherwise if it is blue, the direction is counterclockwise.
 
-![365858650_323051130063385_2190989265658690473_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/ebab84c4-e9c6-4789-8bdc-21c498b57019)
-
-The robot would go backwards to make it go where the team would direct it, facing the middle zone of the next straightforward section without hitting any possible obstacles placed either near T-intersections of the section and having the right distance to make specific actions if there are obstacles placed on the intersections.
-
-### 1.2.
-#### When would it happen?
-When the robot is on the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there are no obstacles on either near T-intersections of the next straightforward section.
-
-![2](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/342e4eca-4781-4b30-9e51-0e5beca17f55)
-
-#### What should it do?
-The robot would drive past the red obstacle, go to the right side of its current straightforward section, then turn to the middle zone of the next straightforward section. When the orange line is detected after the above action was done, do Subprogram 2.2.
-
-![365846029_308241895144753_6079159176601745593_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/95e46d60-70fd-4a0f-a59b-ad1965971e66)
-
-
-### 1.3. 
-#### When would it happen?
-When the robot is on the middle part of the driving lane, the red obstacle is on either far T-intersections of the straightforward sections, and there is a green obstacle in either near T-intersections of the next straightforward section.
-
-
-![3](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/a2f367b9-602f-4b26-9846-2c06251fa7f5)
-
-
-#### What should it do?
-The robot would drive past the red obstacle, go to the right side of its current straightforward section, drive past the green obstacle by turning to the left side of the next straightforward section, then go back to the middle zone of its current straightforward section (next straightforward section).
-When the orange line is detected after the above action was done, do Subprogram 2.2.
-
-![365826488_1510422043122099_6220918039932196863_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/fd256d82-dc28-4d36-ab1c-ef38a08b450e)
-
-
-### 1.4. 
-#### When would it happen?
-When the robot is in the middle part of the driving lane, the red obstacle is in either far T-intersections of the straightforward sections, and there is a red obstacle in either near T-intersections of the next straightforward section.
-
-![4](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/b9090400-6093-4a49-afb2-57ee002341b8)
-
-
-#### What should it do?
-The robot would drive past the red obstacle, go to the right side of its current straightforward section, drive past the red obstacle by turning to the right side of the next straightforward section, then go back to the middle zone of its current straightforward section (next straightforward section).
-When the orange line is detected after the above action was done, do Subprogram 2.2.
-
-![365415665_609951774555426_94299785643982583_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/a241a28f-cdd2-4b8f-88fe-673681a756ad)
-
-
-### 1.5. 
-#### When would it happen?
-When the robot is in the middle part of the driving lane and the green obstacle is on either near T-intersections of the straightforward sections.
-
-![5](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/deb43eda-83b2-46b4-aabb-3df0e29a40a3)
-
-#### What should it do?
-The robot would drive past the green obstacle by going to the left side of its current straightforward section, then go back to the middle zone of its current straightforward section.
-When the orange line is detected after the above action was done, do Subprogram 2.1.
-
-![365404169_812314117264325_6296453509035506808_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/a6ac5124-20ec-48ce-8ea2-f0b87ccfe8cc)
-
-### 1.6.  
-#### When would it happen?
-When the robot is on the middle part of the driving lane and the red obstacle is on either near T-intersections of the straightforward sections.
-
-![6](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/e721145d-c472-4339-beda-573315f97106)
-
-#### What should it do?
-The robot would drive past the red obstacle by going to the right side of its current straightforward section, then go back to the middle zone of its current straightforward section.
-When the orange line is detected after the above action was done, do Subprogram 2.2.
-
-![363850274_320329673678150_4783911558074407683_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/b42fcb77-d789-47a4-b304-0ac7ce60d84d)
-
-
-### 1.7. 
-#### When would it happen?
-When the robot is on the middle part of the driving lane and there were no obstacles in front of it.
-
-![365438005_1652800488558277_1155790071176325221_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/315c9434-739b-47cf-b9d1-a1ac3016e258)
-
-
-#### What should it do?
-The robot would just drive forward.
-When the orange line is detected after the above action was done, do Subprogram 2.2.
-
-![364396360_260419033435283_9031273097992376627_n](https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/5dfe80d5-bd10-438a-8006-a6c245350326)
-
-
-`Subprogram 1:`
-The robot would go backwards for a short amount of time, go forward and turn 90 degrees facing the next straight forward section, then go backwards again for a short amount of time, and finally go forward. 
-#####
-`Subprogram 2:`
-The robot would turn 90 degrees, go backwards for a short amount of time, and finally go forward.
 

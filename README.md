@@ -63,7 +63,7 @@ This sensor detects and measures different wavelengths of light using 5 visible 
 `3.2.   AISTEAM Infrared Barrier Avoidance Module (V2 Version)`
 
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141907756/f79dba99-d890-438e-9324-18bbd4779397"
- width="200"> 
+ width="300"> 
 
 An infrared barrier avoidance module is a sensor that detects the presence of objects or obstacles in its vicinity. It possesses the unique ability to not only identify the presence of these objects but also measure the absence of them, enabling the determination of the distance between an object and the sensor’s location. It operates at a voltage of 5 V and has an estimated detection range of 5 cm to 20 cm, allowing it to sense objects within this distance. However, this sensor only offers a detection accuracy of ±2cm when detecting objects with a white surface reflection. Due to constraints posed by limited resources, the team had no alternative but to rely on this particular sensor to facilitate obstacle avoidance and navigation, allowing the robot to maneuver safely, where it plays a vital role in identifying obstacles and walls, triggering the corresponding actions of the robot. It serves as a helpful tool in the automation and control of the robot.
 
@@ -82,7 +82,7 @@ Additional Components
 `4.1. AISTEAM Expansion Screen Module`
 
 
-<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141907756/76b6a7ef-e3d4-4351-955d-90c5e96deb34" width = "200">
+<img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141907756/76b6a7ef-e3d4-4351-955d-90c5e96deb34" width = "300">
 
 The expansion screen module has the ability to display alphanumeric characters and basic geometric figures such as rectangles and circles. It consists of a 0.96 inch low-powered OLED module and has a resolution of 128x64, a full-view display, and a SPI communication; the shell is equipped with a high-transmitting acrylic protection board. This screen module is directly connected to the controller of the robot. This component is specifically used for easier debugging of unexpected actions of the robot, thus saving much more time compared to having to analyze the whole program to figure out the problem.
 

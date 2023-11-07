@@ -16,6 +16,8 @@ For the mobility of the robot, the team had chosen these following motors:
 <img src="https://github.com/BatangISpartan/22nd-WRO-Future-Engineers-Ragno-Spartiat/assets/141904555/cfdee7b8-3b87-4bc3-82e4-614a67ef7bb6" width="250"> 
 
 1.1. AISTEAM Ordinary Motor Module (V1 Version)
+
+
 	This motor mainly served as the driving motor of the robot, specifically driving the wheels on the back axle of the robot. It has a working voltage of 7.4 V, with rated speed of 200 RPM±10%, reduction ratio of 1:120, and a no-load current of 50 mA. The shell of this motor can be connected to two (2) wheel axles and is compatible with the LEGO construction system. Among the motors that the team have, this motor was selected mainly for its ability to rotate really fast while also not having a limited angle range. This driving motor is directly connected to the back wheel axle, meaning it does not utilize a gearing system.
 	Additionally, this motor is also used to rotate the camera of the robot. The movements of the motor that controls the camera are programmed to be based on the color of the obstacle detected by the camera of the robot and the defined driving direction of that challenge round, which will be discussed later on this documentation. In total, two (2) of AISTEAM ordinary motor modules are used by the robot.
 
